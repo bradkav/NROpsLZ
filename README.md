@@ -17,9 +17,9 @@ If you make use of this code, please cite the following papers:
 
 **If you use the LZ projected limits**:
 
-&nbsp;&nbsp;&nbsp;&nbsp;*LZ Technical Design Report* [arXiv:1509.02910](https://arxiv.org/abs/1509.02910) [[BibTeX link](http://inspirehep.net/record/1392796/export/hx)]
+&nbsp;&nbsp;&nbsp;&nbsp;*LZ Conceptual Design Report* [arXiv:1509.02910](https://arxiv.org/abs/1509.02910) [[BibTeX link](http://inspirehep.net/record/1392796/export/hx)]
 
-&nbsp;&nbsp;&nbsp;&nbsp;*Procedure for calculating the LZ limits*: [arXiv:1605.04917](https://arxiv.org/abs/1605.04917) [[BibTeX link](http://inspirehep.net/record/1459229/export/hx)]
+&nbsp;&nbsp;&nbsp;&nbsp;*Procedure for calculating the LZ limits*: [arXiv:1605.04917 (Appendix D)](https://arxiv.org/abs/1605.04917) [[BibTeX link](http://inspirehep.net/record/1459229/export/hx)]
 
 
 
