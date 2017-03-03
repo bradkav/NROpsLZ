@@ -1,0 +1,110 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 10.3' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[      3215,        101]
+NotebookOptionsPosition[      2783,         81]
+NotebookOutlinePosition[      3137,         97]
+CellTagsIndexPosition[      3094,         94]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell["NROpsDD for LZ - Example Code", "Section",
+ CellChangeTimes->{{3.697543910105132*^9, 3.697543921496871*^9}, {
+  3.697543955380227*^9, 3.6975439567610273`*^9}}],
+
+Cell[TextData[{
+ "Load in NROpsDD, available ",
+ ButtonBox["here.",
+  BaseStyle->"Hyperlink",
+  ButtonData->{
+    URL["http://www.marcocirelli.net/NRopsDD.html"], None},
+  ButtonNote->"http://www.marcocirelli.net/NRopsDD.html"]
+}], "Text",
+ CellChangeTimes->{{3.656336951355734*^9, 3.65633695624737*^9}, {
+  3.659168036153428*^9, 3.6591680460535603`*^9}, {3.667565817237254*^9, 
+  3.667565824774185*^9}, {3.675677832929736*^9, 3.675677833810213*^9}}],
+
+Cell[BoxData[
+ RowBox[{"(*", 
+  RowBox[{
+   RowBox[{"FilePath", " ", "=", " ", 
+    RowBox[{
+     RowBox[{"NotebookDirectory", "[", "]"}], " ", "<>", " ", 
+     "\"\<NROpsDD/\>\""}]}], ";", "\[IndentingNewLine]", 
+   RowBox[{"Get", "[", 
+    RowBox[{"FilePath", " ", "<>", " ", "\"\<TS.m\>\""}], "]"}], ";", 
+   "\[IndentingNewLine]", 
+   RowBox[{"Get", "[", 
+    RowBox[{"FilePath", " ", "<>", " ", "\"\<Y.m\>\""}], "]"}], ";"}], 
+  "*)"}]], "Input",
+ CellChangeTimes->{{3.656336951355734*^9, 3.65633695624737*^9}, {
+  3.659168036153428*^9, 3.6591680460535603`*^9}, {3.667565817237254*^9, 
+  3.6675658284952507`*^9}, {3.6676497845750103`*^9, 3.667649794625852*^9}, {
+  3.690546618702057*^9, 3.6905466201565037`*^9}}],
+
+Cell["\<\
+Load in the LZ Test Statistics 
+(Gives access to LZTS[Log10[mx], Log10[\[Lambda]]] and YLZ[i][N1, N2][mx])\
+\>", "Text",
+ CellChangeTimes->{{3.667644113283037*^9, 3.6676441636202097`*^9}, {
+  3.66764476976551*^9, 3.667644771601907*^9}}],
+
+Cell[BoxData[{
+ RowBox[{
+  RowBox[{"NotebookEvaluate", "[", 
+   RowBox[{
+    RowBox[{"NotebookDirectory", "[", "]"}], " ", "<>", " ", 
+    "\"\<LZ/LZ-TS.nb\>\""}], "]"}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"NotebookEvaluate", "[", 
+   RowBox[{
+    RowBox[{"NotebookDirectory", "[", "]"}], " ", "<>", " ", 
+    "\"\<LUX/LUX-TS.nb\>\""}], "]"}], ";"}], "\[IndentingNewLine]"}], "Input",\
+
+ CellChangeTimes->{
+  3.667642181747768*^9, {3.667644082659216*^9, 3.667644099407803*^9}, {
+   3.6676442339101458`*^9, 3.667644236108789*^9}, {3.690546584238781*^9, 
+   3.6905466136888227`*^9}}]
+}, Open  ]]
+},
+WindowSize->{808, 681},
+WindowMargins->{{4, Automatic}, {Automatic, 4}},
+FrontEndVersion->"10.3 for Mac OS X x86 (32-bit, 64-bit Kernel) (October 9, \
+2015)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[580, 22, 165, 2, 64, "Section"],
+Cell[748, 26, 450, 10, 30, "Text"],
+Cell[1201, 38, 717, 16, 63, "Input"],
+Cell[1921, 56, 246, 5, 49, "Text"],
+Cell[2170, 63, 597, 15, 63, "Input"]
+}, Open  ]]
+}
+]
+*)
+
+(* End of internal cache information *)

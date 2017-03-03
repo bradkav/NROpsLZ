@@ -1,0 +1,6 @@
+***LZ parameters taken from Conceptual Design Report - arXiv:1509.02910***
+
+Exposure: 5600 tonne-days (p.62)
+Efficiency: 50% (p.62)
+Energy window: 6-30 keV_NR (p.50)
+Backgrounds: 2.37 total BG events during total exposure (p.41)
