@@ -10,14 +10,14 @@ These `Mathematica` notebooks should allow you to calculate approximate limits o
 
 Please contact Bradley Kavanagh (bradkav@gmail.com) for any comments, questions or requests.
 
-###Usage
+### Usage
 
 To load the required functions, just run the two notebooks `LUX/LUX-TS.nb` and `LZ/LZ-TS.nb`. 
 
 Examples of calculating limits are given in `Example.nb`.
 
 
-###Citation
+### Citation
 
 If you make use of this code, please cite the following papers:
 
