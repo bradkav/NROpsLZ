@@ -1,4 +1,4 @@
-# NROps_LUXLZ
+# NROps_Updated
 
 Tools for calculating current Dark Matter limits from the LUX experiment and projected limits from the LZ experiment in the framework of non-relativistic effective field theory (NREFT).
 
