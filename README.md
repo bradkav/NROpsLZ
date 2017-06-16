@@ -21,14 +21,15 @@ To load the required functions, just run the notebooks:
  
  These then give you access to the following functions:
  	 `TS [exp] [Log10[mx], Log10[l]]`  
+	 
 	 `Y[interactiontype] [exp] [i, j] [N1, N2] [m]`
 
  where
- 	interactiontype = Contact, Long-Range
- 	exp = "LUX-2016", "Xe1T-2017", "LZ-projected"
- 	(i, j) = Pairs of non-relativistic (NR) operactors, with i, j = 1 -> 11
- 	(N1, N2) = Pairs of nucleons: ("p","p"),  ("n","n"),  ("p","n"),  ("n","p")
- 	m = DM mass in GeV, in the range 5 GeV -> 10 TeV.
+ 	- interactiontype = Contact, Long-Range
+ 	- exp = "LUX-2016", "Xe1T-2017", "LZ-projected"
+ 	- (i, j) = Pairs of non-relativistic (NR) operactors, with i, j = 1 -> 11
+ 	- (N1, N2) = Pairs of nucleons: ("p","p"),  ("n","n"),  ("p","n"),  ("n","p")
+ 	- m = DM mass in GeV, in the range 5 GeV -> 10 TeV.
 
 Examples of calculating limits are given in `Example.nb`.
 
